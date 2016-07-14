@@ -1,5 +1,7 @@
 # Object Library
 
+[![Build Status](https://travis-ci.org/activecollab/object.svg?branch=master)](https://travis-ci.org/activecollab/object)
+
 `ActiveCollab\Object\ObjectInterface` interface defines methods that we can use to identify and compare objects:
 
 1. `getId()`
