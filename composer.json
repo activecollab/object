@@ -1,0 +1,31 @@
+{
+    "name": "activecollab/object",
+    "type": "library",
+    "description": "Object interface is shared across all Active Collab objects and helps us identify them",
+    "license": "MIT",
+    "prefer-stable": true,
+    "keywords": [
+        "activecollab"
+    ],
+    "homepage": "https://labs.activecollab.com",
+    "authors": [
+        {
+            "name": "Ilija Studen",
+            "email": "ilija.studen@activecollab.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "^1.0",
+        "phpunit/phpunit": "^5.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ActiveCollab\\Object\\": "src",
+            "ActiveCollab\\Object\\Test\\": "test/src"
+        }
+    }
+}
